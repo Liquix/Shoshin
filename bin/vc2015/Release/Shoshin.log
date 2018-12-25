@@ -1,0 +1,178 @@
+﻿cl : Command line warning D9035: option 'QIfist' has been deprecated and will be removed in a future release
+  intro.cpp
+  Crinkler 2.0a (Mar 28 2018) (c) 2005-2018 Aske Simon Christensen & Rune Stubbe
+  
+  Ignoring unknown argument '/ERRORREPORT:PROMPT'
+  Ignoring unknown argument '/NOLOGO'
+  Ignoring unknown argument '/NODEFAULTLIB'
+  Ignoring unknown argument '/MANIFEST:NO'
+  Ignoring unknown argument '/DEBUG'
+  Ignoring unknown argument '/PDB:.\exe\Shoshin.pdb'
+  Ignoring unknown argument '/TLBID:1'
+  Ignoring unknown argument '/DYNAMICBASE:NO'
+  Ignoring unknown argument '/IMPLIB:.\exe\Shoshin.lib'
+  Ignoring unknown argument '/MACHINE:X86'
+  Ignoring unknown argument '/SAFESEH'
+  Target: .\exe\Shoshin.exe
+  Tiny compressor: NO
+  Tiny import: NO
+  Subsystem type: WINDOWS
+  Large address aware: NO
+  Compression mode: INSTANT
+  Saturate counters: NO
+  Hash size: 300 MB
+  Hash tries: 300
+  Order tries: 4000
+  Report: crinkler_rpt.html
+  Transforms: NONE
+  Replace DLLs: NONE
+  Fallback DLLs: NONE
+  Range DLLs: opengl32, winmm, kernel32, user32, gdi32
+  Exports: NONE
+  
+  Loading opengl32.lib...
+  Loading glu32.lib...
+  Loading winmm.lib...
+  Loading kernel32.lib...
+  Loading user32.lib...
+  Loading gdi32.lib...
+  Loading winspool.lib...
+  Loading comdlg32.lib...
+  Loading advapi32.lib...
+  Loading shell32.lib...
+  Loading ole32.lib...
+  Loading oleaut32.lib...
+  Loading uuid.lib...
+  Loading odbc32.lib...
+  Loading odbccp32.lib...
+  Loading .\bin\vc2015\Release\ext.obj...
+  Loading .\bin\vc2015\Release\intro.obj...
+  Loading .\bin\vc2015\Release\main_release.obj...
+  Loading .\bin\vc2015\Release\mzk.obj...
+  
+  Linking...
+  
+  
+  Uncompressed size of code:   719
+  Uncompressed size of data:  2118
+  
+  label name                                   pos comp-pos      size compsize
+  Code sections                                  0     0.00       719   471.20
+    .text                                        0     0.13       132   115.13
+      _Import                                    0     0.13       132   115.13
+        _Import                                  0     0.13        29    24.16
+        DLLLoop                                 29    24.28         4     4.45
+        HashLoop                                33    28.73         1     1.07
+        GetProcAddress                          34    29.80        13    11.43
+        ScanProcedureNamesLoop                  47    41.23        13    10.64
+        CalculateHashLoop                       60    51.88        37    31.12
+        OrdinalLoop                             97    83.00        18    16.58
+        LoadDLL                                115    99.58         8     7.27
+        NextDLL                                123   106.85         9     8.41
+    .main                                      132   115.25       224   145.78
+      ?entrypoint@@YIXXZ                       132   115.25       224   145.78
+        ?entrypoint@@YIXXZ                     132   115.25       224   145.78
+        $LN10                                  356   261.04         0     0.00
+        $LN9                                   356   261.04         0     0.00
+    .extinit                                   356   261.04        31    23.39
+      ?EXT_Init@@YIXXZ                         356   261.04        31    23.39
+        ?EXT_Init@@YIXXZ                       356   261.04        31    23.39
+    .mzkinit                                   387   284.43        91    70.00
+      ?mzk_init@@YIXPAF@Z                      387   284.43        91    70.00
+        ?mzk_init@@YIXPAF@Z                    387   284.43        91    70.00
+    .introinit                                 478   354.43       108    56.52
+      ?intro_init@@YIXXZ                       478   354.43       108    56.52
+        ?intro_init@@YIXXZ                     478   354.43       108    56.52
+    .intromain                                 586   410.95       133    60.24
+      ?intro_do@@YIXJ@Z                        586   410.95       133    60.24
+        ?intro_do@@YIXJ@Z                      586   410.95       133    60.24
+  
+  Data sections                                719   471.20      2118   865.92
+    .data                                      719   471.20        45    33.32
+      _DLLNames                                719   471.20        45    33.32
+        _DLLNames                              719   471.20        45    33.32
+    .rdata                                     764   504.52         4     4.79
+      __real@3d8062d7                          764   504.52         4     4.79
+        __real@3d8062d7                        764   504.52         4     4.79
+    .rdata                                     768   509.31         4     4.15
+      __real@3dab5dc4                          768   509.31         4     4.15
+        __real@3dab5dc4                        768   509.31         4     4.15
+    .rdata                                     772   513.45         4     4.37
+      __real@3a83126f                          772   513.45         4     4.37
+        __real@3a83126f                        772   513.45         4     4.37
+    .rdata                                     776   517.83         4     4.27
+      __real@46fffe00                          776   517.83         4     4.27
+        __real@46fffe00                        776   517.83         4     4.27
+    .rdata                                     780   522.10         4     3.07
+      __real@42c80000                          780   522.10         4     3.07
+        __real@42c80000                        780   522.10         4     3.07
+    .vsh                                       784   525.17         4     3.44
+      ?vsh@@3PBDB                              784   525.17         4     3.44
+        ?vsh@@3PBDB                            784   525.17         4     3.44
+    .fsh                                       788   528.61         4     3.69
+      ?fsh@@3PBDB                              788   528.61         4     3.69
+        ?fsh@@3PBDB                            788   528.61         4     3.69
+    .rdata                                     792   532.30        20    16.32
+      ??_C@_0BD@CADKHDMH@glUseProgramSta       792   532.30        20    16.32
+        ??_C@_0BD@CADKHDMH@glUseProgramS       792   532.30        20    16.32
+    .rdata                                     812   548.62        20    11.83
+      ??_C@_0BE@KBMHINLC@glProgramUnifor       812   548.62        20    11.83
+        ??_C@_0BE@KBMHINLC@glProgramUnif       812   548.62        20    11.83
+    .glstrs                                    832   560.45        20     9.95
+      ?strs@@3PAPADA                           832   560.45        20     9.95
+        ?strs@@3PAPADA                         832   560.45        20     9.95
+    .rdata                                     852   570.40        24    12.07
+      ??_C@_0BG@CCBKOCA@glGenProgramPipe       852   570.40        24    12.07
+        ??_C@_0BG@CCBKOCA@glGenProgramPi       852   570.40        24    12.07
+    .rdata                                     876   582.47        24     6.76
+      ??_C@_0BG@GLPOKNCG@glBindProgramPi       876   582.47        24     6.76
+        ??_C@_0BG@GLPOKNCG@glBindProgram       876   582.47        24     6.76
+    .rdata                                     900   589.22        24    12.20
+      ??_C@_0BH@BOJGDFJN@glCreateShaderP       900   589.22        24    12.20
+        ??_C@_0BH@BOJGDFJN@glCreateShade       900   589.22        24    12.20
+    .rdata                                     924   601.42        84    39.55
+      ?wavHeader@@3QBHB                        924   601.42        84    39.55
+        ?wavHeader@@3QBHB                      924   601.42        44    35.81
+        ?pfd@@3UtagPIXELFORMATDESCRIPTOR       968   637.23        40     3.74
+    .rdata                                    1008   640.97       112    80.96
+      ??_C@_0HA@GIFBHAJB@version?5430?6l      1008   640.97       112    80.96
+        ??_C@_0HA@GIFBHAJB@version?5430?      1008   640.97       112    80.96
+    .rdata                                    1120   721.93      1717   615.19
+      ??_C@_0GLG@MLCDAMME@?$CDversion?54      1120   721.93      1717   615.19
+        ??_C@_0GLG@MLCDAMME@?$CDversion?      1120   721.93      1717   615.19
+  
+  Uninitialized sections                      2837           18409399
+    .bss                                     65536                960
+      _ImportList                            65536                  0
+      __imp__ExitProcess@4                   65536                  4
+      __imp__LoadLibraryA@4                  65540                  4
+      __imp__ChangeDisplaySettingsA@8        65544                328
+      __imp__CreateWindowExA@48              65872                  4
+      __imp__GetAsyncKeyState@4              65876                124
+      __imp__GetDC@4                         66000                  4
+      __imp__ShowCursor@4                    66004                  4
+      __imp__ChoosePixelFormat@8             66008                  4
+      __imp__SetPixelFormat@12               66012                  4
+      __imp__glRects@16                      66016                376
+      __imp__wglCreateContext@4              66392                 40
+      __imp__wglGetProcAddress@4             66432                  4
+      __imp__wglMakeCurrent@8                66436                 24
+      __imp__wglSwapLayerBuffers@8           66460                  4
+      __imp__sndPlaySoundA@8                 66464                 28
+      __imp__timeGetTime@0                   66492                  4
+    .bss                                     66496                 24
+      ?myglfunc@@3PAPAXA                     66496                 24
+    .bss                                     66520                 72
+      ?fsid@@3HA                             66520                 72
+        ?fsid@@3HA                           66520                  8
+        ?fparams@@3PAMA                      66528                 64
+    .bss                                     66592           18345644
+      ?myMuzik@@3PAFA                        66592           18345644
+        ?myMuzik@@3PAFA                      66592           18345644
+  
+  Output file: .\exe\Shoshin.exe
+  Final file size: 1675 (previous size 1681)
+  
+  time spent: 0m01s
+  Shoshin.vcxproj -> \\ahs\ahsfiles\Users\AHS-CO\Steven.Ulfelder\Personal Projects\Shoshin\Shoshin\.\exe\Shoshin.exe
+  Shoshin.vcxproj -> .\exe\Shoshin.pdb (Full PDB)

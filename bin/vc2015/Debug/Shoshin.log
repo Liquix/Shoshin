@@ -1,0 +1,13 @@
+﻿cl : Command line warning D9035: option 'QIfist' has been deprecated and will be removed in a future release
+  mzk.cpp
+cl : Command line warning D9035: option 'QIfist' has been deprecated and will be removed in a future release
+  main_release.cpp
+  Crinkler 2.0a (Mar 28 2018) (c) 2005-2018 Aske Simon Christensen & Rune Stubbe
+  
+  Launching default linker at 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\VC\BIN\LINK.EXE'
+  
+intro.obj : error LNK2019: unresolved external symbol __libm_sse2_cos_precise referenced in function "void __fastcall intro_do(long)" (?intro_do@@YIXJ@Z)
+intro.obj : error LNK2001: unresolved external symbol __fltused
+mzk.obj : error LNK2001: unresolved external symbol __fltused
+mzk.obj : error LNK2019: unresolved external symbol __libm_sse2_sin_precise referenced in function "void __fastcall mzk_init(short *)" (?mzk_init@@YIXPAF@Z)
+.\exe\Shoshin.exe : fatal error LNK1120: 3 unresolved externals
