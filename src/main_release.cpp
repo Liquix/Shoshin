@@ -40,7 +40,7 @@ void entrypoint( void )
     //if( ChangeDisplaySettings(&screenSettings, NULL/*,CDS_FULLSCREEN*/)!=DISP_CHANGE_SUCCESSFUL) return;
     ShowCursor( 0 );
 
-    HWND hWnd = CreateWindow( (LPCSTR)0xC018,0,WS_VISIBLE,2000,20,XRES,YRES,0,0,0,0);
+    HWND hWnd = CreateWindow( (LPCSTR)0xC018,0,WS_VISIBLE,0,20,XRES,YRES,0,0,0,0);
     HDC hDC = GetDC(hWnd);
 
 	SetPixelFormat(hDC, ChoosePixelFormat(hDC, &pfd), &pfd);
@@ -50,7 +50,7 @@ void entrypoint( void )
 
     mzk_init( myMuzik+22 );
     memcpy( myMuzik, wavHeader, 44 );
-    sndPlaySound( (const char*)&myMuzik, SND_ASYNC|SND_MEMORY );
+    //sndPlaySound( (const char*)&myMuzik, SND_ASYNC|SND_MEMORY );
 
 	long t, to = timeGetTime();
 

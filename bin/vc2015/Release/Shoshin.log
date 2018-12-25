@@ -38,6 +38,19 @@
   Loading gdi32.lib...
   Loading winspool.lib...
   Loading comdlg32.lib...
+  Loading pthreadVC2.lib...
+  Loading advapi32.lib...
+  Loading shell32.lib...
+  Loading ole32.lib...
+  Loading oleaut32.lib...
+  Loading uuid.lib...
+  Loading odbc32.lib...
+  Loading odbccp32.lib...
+  Loading kernel32.lib...
+  Loading user32.lib...
+  Loading gdi32.lib...
+  Loading winspool.lib...
+  Loading comdlg32.lib...
   Loading advapi32.lib...
   Loading shell32.lib...
   Loading ole32.lib...
@@ -53,95 +66,92 @@
   Linking...
   
   
-  Uncompressed size of code:   719
-  Uncompressed size of data:  2118
+  Uncompressed size of code:   689
+  Uncompressed size of data:  1887
   
   label name                                   pos comp-pos      size compsize
-  Code sections                                  0     0.00       719   471.20
-    .text                                        0     0.13       132   115.13
-      _Import                                    0     0.13       132   115.13
-        _Import                                  0     0.13        29    24.16
-        DLLLoop                                 29    24.28         4     4.45
-        HashLoop                                33    28.73         1     1.07
-        GetProcAddress                          34    29.80        13    11.43
-        ScanProcedureNamesLoop                  47    41.23        13    10.64
-        CalculateHashLoop                       60    51.88        37    31.12
-        OrdinalLoop                             97    83.00        18    16.58
-        LoadDLL                                115    99.58         8     7.27
-        NextDLL                                123   106.85         9     8.41
-    .main                                      132   115.25       224   145.78
-      ?entrypoint@@YIXXZ                       132   115.25       224   145.78
-        ?entrypoint@@YIXXZ                     132   115.25       224   145.78
-        $LN10                                  356   261.04         0     0.00
-        $LN9                                   356   261.04         0     0.00
-    .extinit                                   356   261.04        31    23.39
-      ?EXT_Init@@YIXXZ                         356   261.04        31    23.39
-        ?EXT_Init@@YIXXZ                       356   261.04        31    23.39
-    .mzkinit                                   387   284.43        91    70.00
-      ?mzk_init@@YIXPAF@Z                      387   284.43        91    70.00
-        ?mzk_init@@YIXPAF@Z                    387   284.43        91    70.00
-    .introinit                                 478   354.43       108    56.52
-      ?intro_init@@YIXXZ                       478   354.43       108    56.52
-        ?intro_init@@YIXXZ                     478   354.43       108    56.52
-    .intromain                                 586   410.95       133    60.24
-      ?intro_do@@YIXJ@Z                        586   410.95       133    60.24
-        ?intro_do@@YIXJ@Z                      586   410.95       133    60.24
+  Code sections                                  0     0.00       689   448.48
+    .text                                        0     0.13       132   114.95
+      _Import                                    0     0.13       132   114.95
+        _Import                                  0     0.13        29    23.88
+        DLLLoop                                 29    24.00         4     4.62
+        HashLoop                                33    28.62         1     1.07
+        GetProcAddress                          34    29.69        13    11.41
+        ScanProcedureNamesLoop                  47    41.09        13    10.64
+        CalculateHashLoop                       60    51.74        37    31.07
+        OrdinalLoop                             97    82.80        18    16.52
+        LoadDLL                                115    99.33         8     7.27
+        NextDLL                                123   106.59         9     8.48
+    .main                                      132   115.08       202   127.85
+      ?entrypoint@@YIXXZ                       132   115.08       202   127.85
+        ?entrypoint@@YIXXZ                     132   115.08       202   127.85
+        $LN10                                  334   242.93         0     0.00
+        $LN9                                   334   242.93         0     0.00
+    .extinit                                   334   242.93        31    23.30
+      ?EXT_Init@@YIXXZ                         334   242.93        31    23.30
+        ?EXT_Init@@YIXXZ                       334   242.93        31    23.30
+    .mzkinit                                   365   266.23        91    70.15
+      ?mzk_init@@YIXPAF@Z                      365   266.23        91    70.15
+        ?mzk_init@@YIXPAF@Z                    365   266.23        91    70.15
+    .introinit                                 456   336.38       108    57.45
+      ?intro_init@@YIXXZ                       456   336.38       108    57.45
+        ?intro_init@@YIXXZ                     456   336.38       108    57.45
+    .intromain                                 564   393.84       125    54.64
+      ?intro_do@@YIXJ@Z                        564   393.84       125    54.64
+        ?intro_do@@YIXJ@Z                      564   393.84       125    54.64
   
-  Data sections                                719   471.20      2118   865.92
-    .data                                      719   471.20        45    33.32
-      _DLLNames                                719   471.20        45    33.32
-        _DLLNames                              719   471.20        45    33.32
-    .rdata                                     764   504.52         4     4.79
-      __real@3d8062d7                          764   504.52         4     4.79
-        __real@3d8062d7                        764   504.52         4     4.79
-    .rdata                                     768   509.31         4     4.15
-      __real@3dab5dc4                          768   509.31         4     4.15
-        __real@3dab5dc4                        768   509.31         4     4.15
-    .rdata                                     772   513.45         4     4.37
-      __real@3a83126f                          772   513.45         4     4.37
-        __real@3a83126f                        772   513.45         4     4.37
-    .rdata                                     776   517.83         4     4.27
-      __real@46fffe00                          776   517.83         4     4.27
-        __real@46fffe00                        776   517.83         4     4.27
-    .rdata                                     780   522.10         4     3.07
-      __real@42c80000                          780   522.10         4     3.07
-        __real@42c80000                        780   522.10         4     3.07
-    .vsh                                       784   525.17         4     3.44
-      ?vsh@@3PBDB                              784   525.17         4     3.44
-        ?vsh@@3PBDB                            784   525.17         4     3.44
-    .fsh                                       788   528.61         4     3.69
-      ?fsh@@3PBDB                              788   528.61         4     3.69
-        ?fsh@@3PBDB                            788   528.61         4     3.69
-    .rdata                                     792   532.30        20    16.32
-      ??_C@_0BD@CADKHDMH@glUseProgramSta       792   532.30        20    16.32
-        ??_C@_0BD@CADKHDMH@glUseProgramS       792   532.30        20    16.32
-    .rdata                                     812   548.62        20    11.83
-      ??_C@_0BE@KBMHINLC@glProgramUnifor       812   548.62        20    11.83
-        ??_C@_0BE@KBMHINLC@glProgramUnif       812   548.62        20    11.83
-    .glstrs                                    832   560.45        20     9.95
-      ?strs@@3PAPADA                           832   560.45        20     9.95
-        ?strs@@3PAPADA                         832   560.45        20     9.95
-    .rdata                                     852   570.40        24    12.07
-      ??_C@_0BG@CCBKOCA@glGenProgramPipe       852   570.40        24    12.07
-        ??_C@_0BG@CCBKOCA@glGenProgramPi       852   570.40        24    12.07
-    .rdata                                     876   582.47        24     6.76
-      ??_C@_0BG@GLPOKNCG@glBindProgramPi       876   582.47        24     6.76
-        ??_C@_0BG@GLPOKNCG@glBindProgram       876   582.47        24     6.76
-    .rdata                                     900   589.22        24    12.20
-      ??_C@_0BH@BOJGDFJN@glCreateShaderP       900   589.22        24    12.20
-        ??_C@_0BH@BOJGDFJN@glCreateShade       900   589.22        24    12.20
-    .rdata                                     924   601.42        84    39.55
-      ?wavHeader@@3QBHB                        924   601.42        84    39.55
-        ?wavHeader@@3QBHB                      924   601.42        44    35.81
-        ?pfd@@3UtagPIXELFORMATDESCRIPTOR       968   637.23        40     3.74
-    .rdata                                    1008   640.97       112    80.96
-      ??_C@_0HA@GIFBHAJB@version?5430?6l      1008   640.97       112    80.96
-        ??_C@_0HA@GIFBHAJB@version?5430?      1008   640.97       112    80.96
-    .rdata                                    1120   721.93      1717   615.19
-      ??_C@_0GLG@MLCDAMME@?$CDversion?54      1120   721.93      1717   615.19
-        ??_C@_0GLG@MLCDAMME@?$CDversion?      1120   721.93      1717   615.19
+  Data sections                                689   448.48      1887   733.34
+    .data                                      689   448.48        43    32.13
+      _DLLNames                                689   448.48        43    32.13
+        _DLLNames                              689   448.48        43    32.13
+    .rdata                                     732   480.61         4     4.52
+      __real@3d8062d7                          732   480.61         4     4.52
+        __real@3d8062d7                        732   480.61         4     4.52
+    .rdata                                     736   485.13         4     4.13
+      __real@3dab5dc4                          736   485.13         4     4.13
+        __real@3dab5dc4                        736   485.13         4     4.13
+    .rdata                                     740   489.26         4     4.35
+      __real@3a83126f                          740   489.26         4     4.35
+        __real@3a83126f                        740   489.26         4     4.35
+    .rdata                                     744   493.61         4     4.76
+      __real@46fffe00                          744   493.61         4     4.76
+        __real@46fffe00                        744   493.61         4     4.76
+    .vsh                                       748   498.38         4     3.66
+      ?vsh@@3PBDB                              748   498.38         4     3.66
+        ?vsh@@3PBDB                            748   498.38         4     3.66
+    .fsh                                       752   502.03         4     3.52
+      ?fsh@@3PBDB                              752   502.03         4     3.52
+        ?fsh@@3PBDB                            752   502.03         4     3.52
+    .rdata                                     756   505.55        20    16.80
+      ??_C@_0BD@CADKHDMH@glUseProgramSta       756   505.55        20    16.80
+        ??_C@_0BD@CADKHDMH@glUseProgramS       756   505.55        20    16.80
+    .rdata                                     776   522.35        20    11.76
+      ??_C@_0BE@KBMHINLC@glProgramUnifor       776   522.35        20    11.76
+        ??_C@_0BE@KBMHINLC@glProgramUnif       776   522.35        20    11.76
+    .glstrs                                    796   534.11        20    10.79
+      ?strs@@3PAPADA                           796   534.11        20    10.79
+        ?strs@@3PAPADA                         796   534.11        20    10.79
+    .rdata                                     816   544.91        24    12.07
+      ??_C@_0BG@CCBKOCA@glGenProgramPipe       816   544.91        24    12.07
+        ??_C@_0BG@CCBKOCA@glGenProgramPi       816   544.91        24    12.07
+    .rdata                                     840   556.97        24     6.79
+      ??_C@_0BG@GLPOKNCG@glBindProgramPi       840   556.97        24     6.79
+        ??_C@_0BG@GLPOKNCG@glBindProgram       840   556.97        24     6.79
+    .rdata                                     864   563.77        24    12.28
+      ??_C@_0BH@BOJGDFJN@glCreateShaderP       864   563.77        24    12.28
+        ??_C@_0BH@BOJGDFJN@glCreateShade       864   563.77        24    12.28
+    .rdata                                     888   576.04        88    39.68
+      ?wavHeader@@3QBHB                        888   576.04        88    39.68
+        ?wavHeader@@3QBHB                      888   576.04        44    35.88
+        ?pfd@@3UtagPIXELFORMATDESCRIPTOR       932   611.93        44     3.79
+    .rdata                                     976   615.72       112    80.98
+      ??_C@_0HA@GIFBHAJB@version?5430?6l       976   615.72       112    80.98
+        ??_C@_0HA@GIFBHAJB@version?5430?       976   615.72       112    80.98
+    .rdata                                    1088   696.70      1488   485.12
+      ??_C@_0FNB@KPHNDBI@?$CDversion?543      1088   696.70      1488   485.12
+        ??_C@_0FNB@KPHNDBI@?$CDversion?5      1088   696.70      1488   485.12
   
-  Uninitialized sections                      2837           18409399
+  Uninitialized sections                      2576           18409660
     .bss                                     65536                960
       _ImportList                            65536                  0
       __imp__ExitProcess@4                   65536                  4
@@ -171,8 +181,8 @@
         ?myMuzik@@3PAFA                      66592           18345644
   
   Output file: .\exe\Shoshin.exe
-  Final file size: 1675 (previous size 1681)
+  Final file size: 1520 (previous size 1523)
   
-  time spent: 0m01s
-  Shoshin.vcxproj -> \\ahs\ahsfiles\Users\AHS-CO\Steven.Ulfelder\Personal Projects\Shoshin\Shoshin\.\exe\Shoshin.exe
+  time spent: 0m03s
+  Shoshin.vcxproj -> C:\Users\tab\Documents\Stuff\Shoshin\.\exe\Shoshin.exe
   Shoshin.vcxproj -> .\exe\Shoshin.pdb (Full PDB)

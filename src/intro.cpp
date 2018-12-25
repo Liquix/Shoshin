@@ -42,7 +42,7 @@ void intro_do( long time )
 
     // camera position
     //fparams[ 0] = 2.0f*sinf(1.0f*t+0.1f);
-	fparams[0] = t * 100;
+	fparams[0] = t;
     fparams[ 1] = 0.0f;
     fparams[ 2] = 2.0f*cosf(1.0f*t);
     // camera target
